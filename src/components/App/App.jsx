@@ -1,25 +1,20 @@
-import Profile from "./Profile";
+// import styled from 'styled-components';
+
+import Profile from "../Profile/Profile";
 import user from 'data/user.json';
 import data from 'data/data.json';
-import Statistics from "./Statistics";
-import FriendList from "./FriendList";
+import Statistics from "../Statistics";
+import FriendList from "../FriendList/FriendList";
 import friends from 'data/friends.json';
-import TransactionHistory from "./TransactionHistory";
+import TransactionHistory from "../TransactionHistory";
 import transactions from 'data/transactions.json';
+import { Container } from "./App.styled";
+
 
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
+    <Container>
       {/* React homework template */}
   <Profile 
       username={user.username}
@@ -45,6 +40,6 @@ stats={data}
 <TransactionHistory 
 items={transactions} />;
 
-    </div>
+    </Container>
   );
 };

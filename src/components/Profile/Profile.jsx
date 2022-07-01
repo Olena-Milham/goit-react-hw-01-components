@@ -19,7 +19,7 @@ export default function Profile (props) {
         className="avatar"
       />
       <UserName>{username}</UserName>
-      <UserTag>{tag}</UserTag>
+      <UserTag>@{tag}</UserTag>
       <UserLocation>{location}</UserLocation>
     </UserInfo>
   

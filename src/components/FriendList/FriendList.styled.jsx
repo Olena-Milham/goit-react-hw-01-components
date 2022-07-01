@@ -8,7 +8,9 @@ padding: 20px;
 border-radius: 5px;
 box-shadow: 0 15px 28px rgba(0,0,0,0.30);
 background-color: lightblue;
-list-style: none;`;
+list-style: none;
+width:25%;
+margin-bottom: 30px`;
 
 
 export const ListItem=styled.li`
@@ -16,6 +18,7 @@ display: flex;
 flex-direction:column;
 justify-content: center;
 align-items: center;
+margin-left: 16px;
 
 `;
 

@@ -10,6 +10,7 @@ border-radius: 5px;
 box-shadow: 0 15px 28px rgba(0,0,0,0.30);
 background-color: lightpink;
 width:25%;
+margin-bottom: 30px;
 `;
 
 export const UserInfo = styled.div`
@@ -29,13 +30,13 @@ font-weight: 700;
 letter-spacing: 0.25px;
 margin-bottom: 8px;
 margin-top:0;
+color: ${getRandomHexColor};
 `;
 export const UserTag=styled.p`
 font-size: 16px;
 line-height: 24px;
 font-weight: 400;
 letter-spacing: 0.25px;
-color: ${getRandomHexColor};
 margin-bottom: 8px;
 margin-top:0;
 `;

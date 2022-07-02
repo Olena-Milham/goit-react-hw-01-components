@@ -1,20 +1,20 @@
 
 import PropTypes from 'prop-types';
-import { TableHeader, TransHistoryTb } from './TransactionHistory.styled';
+import { TableBody, TableHead, TableHeader, TableRowTop, TransHistoryTb } from './TransactionHistory.styled';
 import TransactionHistoryItem from './TransactionHistoryItem';
 
 export default function TransactionHistory(props){
     const {items}=props;
     return <TransHistoryTb>
-    <thead>
-      <tr>
+    <TableHead>
+      <TableRowTop>
         <TableHeader>Type</TableHeader>
         <TableHeader>Amount</TableHeader>
         <TableHeader>Currency</TableHeader>
-      </tr>
-    </thead>
+      </TableRowTop>
+    </TableHead>
     
-    <tbody>
+    <TableBody>
     {items.map((item)=>(
      <TransactionHistoryItem
      key={item.id}
@@ -22,7 +22,7 @@ export default function TransactionHistory(props){
      amount={item.amount}
      currency={item.currency}
      />))}
-    </tbody>
+    </TableBody>
   </TransHistoryTb>
 }
 

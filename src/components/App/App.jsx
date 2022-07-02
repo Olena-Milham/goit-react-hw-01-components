@@ -8,38 +8,28 @@ import FriendList from "../FriendList/FriendList";
 import friends from 'data/friends.json';
 import TransactionHistory from "../Transactions/TransactionHistory";
 import transactions from 'data/transactions.json';
-import { Container } from "./App.styled";
+import { Container} from "./App.styled";
 
 
 
 export const App = () => {
   return (
-    <Container>
+<Container>
       {/* React homework template */}
-  <Profile 
+    <Profile 
       username={user.username}
       tag={user.tag}
       location={user.location}
       avatar={user.avatar}
       stats={user.stats}
       />
-
-<Statistics
-title="Upload stats"
-stats={data}
-/>
-
-
-
-<FriendList friends={friends} />
-
-
-
-
-
-<TransactionHistory 
-items={transactions} />;
-
-    </Container>
+    <Statistics
+      title="Upload stats"
+      stats={data}
+      />
+    <FriendList friends={friends} />
+    <TransactionHistory 
+      items={transactions} />;
+</Container>
   );
 };

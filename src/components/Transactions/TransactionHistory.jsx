@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types';
 import { TableBody, TableHead, TableHeader, TableRowTop, TransHistoryTb } from './TransactionHistory.styled';
-import TransactionHistoryItem from './TransactionHistoryItem';
+import TransactionHistoryItem from './HistoryItem/HistoryItem';
 
 export default function TransactionHistory(props){
     const {items}=props;

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Item, StatContainer, StatList, StatTitle } from './Statistics.styled';
-import StatItem from './StatItem';
+import StatItem from './StatItem/StatItem';
 
 export default function Statistics (props){
     const {title , stats} = props;

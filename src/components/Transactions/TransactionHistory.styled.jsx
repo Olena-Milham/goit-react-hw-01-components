@@ -21,29 +21,3 @@ text-align: center;
 font-family:${props=>(props.theme.fonts.heading)};
 font-size: ${props=>(props.theme.fontSizes.l)};
 `;
-
-export const TableData=styled.td`
-height:  ${props=>(props.theme.space[5])}px;
-padding:  ${props=>(props.theme.space[2])}px;
-text-align: center;`;
-
-
-export const TableRow = styled.tr`
-font-family:${props=>(props.theme.fonts.body)};
-font-size: ${props=>(props.theme.fontSizes.l)};
-background-color: ${props => props.theme.colors.accent};
-  :nth-child(2n + 1) {
-    background-color: ${props => props.theme.colors.white};}`;
-
-
-// ==========================
-// const SetRowColor=props=>{
-//  const backgroundColor = props.index %2===0 ? props.theme.colors.primary:props.theme.colors.secondary
-// console.log(props.index);
-//  return backgroundColor;
-// }
-// =========
-    /* background-color: ${props =>
-    props.index % 2 === 0
-      ? props.theme.colors.primary
-      : props.theme.colors.secondary}; */

@@ -1,14 +1,14 @@
 // import styled from 'styled-components';
 
-import Profile from "../Profile/Profile";
+import Profile from "./components/Profile/Profile";
 import user from 'data/user.json';
 import data from 'data/data.json';
-import Statistics from "../Statistics/Statistics";
-import FriendList from "../FriendList/FriendList";
+import Statistics from "./components/Statistics/Statistics";
+import FriendList from "./components/FriendList/FriendList";
 import friends from 'data/friends.json';
-import TransactionHistory from "../Transactions/TransactionHistory";
+import TransactionHistory from "./components/Transactions/TransactionHistory";
 import transactions from 'data/transactions.json';
-import { Container} from "./App.styled";
+import { Container} from "./components/UI/Container/Container.styled";
 
 
 

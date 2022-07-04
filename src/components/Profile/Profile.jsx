@@ -1,11 +1,4 @@
 
-// === components. it is a fubction which recieves data and gives back markup;
-//  === jsx - small letter - string => tag, capital letter - var. 
-//  video-1 53 mins;
-// video-1 59 mins; component is independent thing, doesn't know about anything 
-// so we import files and pass props in the file of render;
-//  proptype - catches the type of prop, what type you expect to recieve:string, boolean, {},[]
-
 import PropTypes from 'prop-types';
 import {UserProfile, UserAvatar, UserInfo, UserName, UserTag,UserLocation, StatsList, StatsItem,StatsLabel, StatsQuantity } from './Profile.styled';
 
@@ -49,6 +42,16 @@ Profile.propTypes = {
 }
 
 
+
+
+
+// ============== My Notes =================
+// === components is a function which recieves data and gives back markup;
+//  === jsx - small letter - string => tag, capital letter - var. 
+//  video-1 53 mins;
+// video-1 59 mins; component is independent thing, doesn't know about anything 
+// so we import files and pass props in the file of render;
+//  proptype - catches the type of prop, what type you expect to recieve:string, boolean, {},[]
 
 // ==== 
 // const Profile = (props)=> {

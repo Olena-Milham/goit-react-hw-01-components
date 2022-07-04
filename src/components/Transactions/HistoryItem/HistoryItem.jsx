@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import { TableData, TableRow } from './TransactionHistory.styled';
+import { TableData, TableRow } from './HistoryItem.styled';
+
 
 export default function TransactionHistoryItem(props){
     const {type, amount, currency}=props 

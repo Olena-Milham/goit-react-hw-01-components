@@ -46,7 +46,8 @@ Profile.propTypes = {
 
 
 // ============== My Notes =================
-// === components is a function which recieves data and gives back markup;
+// === components is a function which recieves data (props)  and gives back markup;
+// ===React-элементы - это самые маленькие строительные блоки React, элементы Virtual DOM. Элементы это обычные JS-объекты..
 //  === jsx - small letter - string => tag, capital letter - var. 
 //  video-1 53 mins;
 // video-1 59 mins; component is independent thing, doesn't know about anything 
